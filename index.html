@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="dashboard-container">
+
+  <div class="main-card">
+    <h2>Choose a Link</h2>
+    <div class="links">
+      <a href="../clock/index.html">Clock</a>
+      <a href="../weather/index.html">Weather</a>
+      <a href="../password/index.html">Password Generator</a>
+      <a href="../links/index.html">Links</a>
+    </div>
+  </div>
+
+  <div class="mini-card password-card">
+    <h3>Password</h3>
+    <p id="password-preview">errorifyouseethis</p>
+  </div>
+
+  <div class="mini-card weather-card">
+    <h3>Weather</h3>
+    <p id="weather-preview">10°C</p>
+  </div>
+
+  <div class="mini-card links-card">
+    <h3>Links</h3>
+    <p id="links-preview">3 saved</p>
+  </div>
+
+  <div class="mini-card clock-card">
+    <h3>Clock</h3>
+    <p id="clock-preview">10:30</p>
+  </div>
+
+</div>
+  <script src="dashboard.js" defer></script>
+  <script src="bckimg.js" defer></script>
+</body>
+</html>

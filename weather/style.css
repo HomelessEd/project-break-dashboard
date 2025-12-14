@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    min-height: 100vh;  
+    background-repeat: no-repeat;      /* prevent tiling */
+    background-size: contain;            /* stretch to fill viewport */
+    background-position: center;       /* center the image */
+
+}
+
+
+.card{
+    position: relative;
+    background: linear-gradient(180deg, hsl(210,100%,75%), hsl(40, 100%, 75%));
+    padding: 20px 45px;
+     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.491);
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+    
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 1px;
+    display: block;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 2px, 0;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.749);
+    margin-bottom: 2px;
+}
+
+.weatherIcon{
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.weatherIcon img{
+    margin: 0;
+    width: 10.5rem;
+    height: 10.5rem;
+}
+
+.back-btn {
+    display: block; 
+    
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background-color: blue;
+    color: red;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.back-btn:hover {
+    background: #000;
+    color: #fff;
+    cursor: grab;
+}
